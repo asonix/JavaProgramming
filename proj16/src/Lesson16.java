@@ -42,7 +42,7 @@ public class Lesson16 {
 //16. there is no "=" in between b and new on the first line
 //16. the type of b is not specified on the second line
 //16. deposit requires a double, it cannot handle a string
-//17. true
+//17. false
 //17. true
 //17. true
 //17. true

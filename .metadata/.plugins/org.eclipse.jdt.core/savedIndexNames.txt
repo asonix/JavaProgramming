@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/home/riley/git/JavaProgramming/.metadata/.plugins/org.eclipse.jdt.core
+2588033623.index
+1951146875.index
