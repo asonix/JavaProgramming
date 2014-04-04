@@ -1,0 +1,36 @@
+//Riley Trautman
+//03.27.14
+
+import java.io.*;
+import java.util.*;
+
+public class project17 {
+	public static void main(String args[]) {
+		System.out.print("Enter something like 8 + 33 + 1,345 +137 : ");
+		
+		Scanner q = new Scanner(System.in);
+		String e = q.nextLine();
+		e.replaceAll("\\s+","");
+		
+		Scanner equation = new Scanner(e);
+		equation.useDelimiter("\\+");
+		
+		int total = 0;
+		
+		while(equation.hasNext()) {
+			String g = equation.next();
+			System.out.println(g);
+			Scanner f = new Scanner(g);
+			f.useDelimiter("\\-");
+			
+			int sub = f.nextInt();
+			
+			while(f.hasNextInt()) {
+				sub -= f.nextInt();
+			}
+			total += sub;
+		}
+		System.out.println("total:");
+		System.out.println(total);
+	}
+}

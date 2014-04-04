@@ -1,0 +1,30 @@
+//Riley Trautman
+import java.io.*;
+import java.util.*;
+public class Lesson17 {
+	public static void main(String args[]) {
+		String s = "Lucky hockey puck";
+		String m = "uck";
+		int j = 6,z = 99;
+		
+		int k = s.indexOf(m);
+		System.out.println(k);
+		
+		int l = s.indexOf("uck",j);
+		System.out.println(l);
+		
+		int n = s.indexOf('c');
+		System.out.println(n);
+		
+		String str = s.replace('o', 'p');
+		System.out.println(str);
+		
+		int o = s.lastIndexOf(m,j+3);
+		System.out.println(o);
+	}
+}
+//1. 1
+//2. 14
+//3. 2
+//4. Lucky hpckey puck
+//5. 

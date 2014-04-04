@@ -1,0 +1,33 @@
+//Riley Trautman
+public class Crypto {
+	public String encrypt(String sntnc) {
+		String output = "";
+		
+		output = sntnc.replaceAll("v", "ag',r");
+		output = output.replaceAll("V", "ag',r");
+
+		output = output.replaceAll("m", "ssad");
+		output = output.replaceAll("M", "ssad");
+
+		output = output.replaceAll("g", "jeb..w");
+		output = output.replaceAll("G", "jeb..w");
+
+		output = output.replaceAll("b", "dug>?/");
+		output = output.replaceAll("B", "dug>?/");
+		
+		return(output);
+	}
+	public String decrypt(String sntnc) {
+		String output = "";
+
+		output = output.replaceAll("dug>?/", "b");
+
+		output = output.replaceAll("jeb..w", "g");
+
+		output = output.replaceAll("ssad", "m");
+		
+		output = sntnc.replaceAll("ag',r", "v");
+		
+		return(output);
+	}
+}

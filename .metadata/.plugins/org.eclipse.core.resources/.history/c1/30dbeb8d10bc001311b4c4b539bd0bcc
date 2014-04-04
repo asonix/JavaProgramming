@@ -1,0 +1,14 @@
+//Riley Trautman
+import java.io.*;
+import java.util.*;
+public class Lesson17 {
+	String s = "Lucky hockey puck";
+	String m = "uck";
+	int j = 6,z = 99;
+	
+	int k = s.indexOf(m);
+	System.out.println(k);
+	
+}
+//1. 14
+//2. 

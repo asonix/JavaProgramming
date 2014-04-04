@@ -1,0 +1,70 @@
+//Riley Trautman
+import java.io.*;
+import java.util.*;
+public class Lesson17 {
+	public static void main(String args[]) {
+		String s = "Lucky hockey puck";
+		String m = "uck";
+		int j = 6,z = 99;
+		
+		int k = s.indexOf(m);
+		System.out.println(k);
+		
+		int l = s.indexOf("uck",j);
+		System.out.println(l);
+		
+		int n = s.indexOf('c');
+		System.out.println(n);
+		
+		String str = s.replace('o', 'p');
+		System.out.println(str);
+		
+		int o = s.lastIndexOf(m,j+3);
+		System.out.println(o);
+		
+		char p = s.charAt(7);
+		System.out.println(p);
+		
+		int q = s.indexOf(z);
+		System.out.println(q);
+		
+		int r = s.lastIndexOf(m);
+		System.out.println(r);
+		
+		int t = s.indexOf('y',j);
+		System.out.println(t);
+		
+		char u = s.charAt(z-90);
+		System.out.println(u);
+		
+		int v = s.indexOf(m,15);
+		System.out.println(v);
+		
+		int w = s.indexOf(z+2,4);
+		System.out.println(w);
+		
+		int x = s.lastIndexOf('h');
+		System.out.println(x);
+		
+		int y = s.lastIndexOf(121);
+		System.out.println(y);
+		
+		String a = s.replace('y', 'A');
+		System.out.println(a);
+	}
+}
+//1. 1
+//2. 14
+//3. 2
+//4. Lucky hpckey puck
+//5. 1
+//6. o
+//7. 2
+//8. 14
+//9. 11
+//10. k
+//11. -1
+//12. 10
+//13. 6
+//14. 11
+//15. LuckA hockeA puck

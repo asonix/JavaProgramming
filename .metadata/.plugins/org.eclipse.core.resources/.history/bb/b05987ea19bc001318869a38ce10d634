@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+//Riley Trautman
+public class Crypto {
+	public String encrypt(String sntnc) {
+		Scanner s = new Scanner(sntnc);
+		s.useDelimiter("");
+		
+		String total = "";
+		
+		while(s.hasNext()) {
+			String t = s.next().toLowerCase();
+			if (t == "v") {
+				total += "ag',r";
+			}
+			else if (t == "m") {
+				total += "ssad";
+			}
+			else if (t == "g") {
+				total += "jeb..w";
+			}
+			else if (t == "b") {
+				total += "dug>?/";
+			}
+			else {
+				total += t;
+			}
+		}
+		
+		return(total);
+	}
+	public String decrypt(String sntnc) {
+		String output = "";
+
+		output = sntnc.replaceAll("dug>?/", "b");
+
+		output = output.replaceAll("jeb..w", "g");
+
+		output = output.replaceAll("ssad", "m");
+		
+		output = output.replaceAll("ag',r", "v");
+		
+		return(output);
+	}
+}
