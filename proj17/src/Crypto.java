@@ -13,8 +13,6 @@ public class Crypto {
 			
 			t = t.toLowerCase();
 			
-			System.out.println(t);
-			
 			if (t.equals("v")) {
 				total += "ag',r";
 			}
@@ -43,8 +41,7 @@ public class Crypto {
 		
 		output = output.replaceAll("ag',r", "v");
 
-		output = output.replaceAll("dug>?/", "b"); //why does this not work???
-		
+		output = output.replaceAll("dug>\\?/", "b");
 		return(output);
 	}
 }
