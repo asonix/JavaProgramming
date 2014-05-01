@@ -1,0 +1,10 @@
+//Riley Trautman
+//04.29.14
+import java.io.*;
+import java.util.*;
+
+public class project18 {
+    public static void main(String args[]) {
+    }
+}
+
