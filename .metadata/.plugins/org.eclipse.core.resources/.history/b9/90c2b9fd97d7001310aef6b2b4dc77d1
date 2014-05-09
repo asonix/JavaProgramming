@@ -1,0 +1,23 @@
+//Riley Trautman
+//05.09.14
+import java.util.*;
+public class project18 {
+	public static void main(String args[]) {
+		String input = "";
+		do {
+			Scanner yeah = new Scanner(System.in);
+			input = yeah.nextLine();
+			input = input.toUpperCase();
+			input = input.replaceAll("//s*", "");
+			String processing = input + "ATTEMPT";
+			String inarr[] = processing.split("S");
+			int counter = 0;
+			for (int i = 0; i < inarr.length; i++) {
+				if (inarr[i].indexOf("A") == 0) {
+					counter++;
+				}
+			}
+			System.out.println(counter);
+		} while(!input.equals("EXIT"));
+	}
+}

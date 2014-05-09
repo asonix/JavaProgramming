@@ -1,0 +1,10 @@
+//Riley Trautman
+//05.09.14
+public class project18 {
+	public static void main(String args[]) {
+		String input = "";
+		do {
+			input = "lkj";
+		} while(input != "EXIT");
+	}
+}
