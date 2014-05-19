@@ -25,7 +25,7 @@ public class Lesson19 {
 //15. -1
 //16. Name=HermanMunster
 //17. 8
-//18. for (DummyClass jj: objArray) {
-//18. 	sum += jj;
+//18. for (int jj: objArray) {
+//18. 	sum += objArray[jj];
 //18. }
 //18. System.out.println(sum);

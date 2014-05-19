@@ -1,4 +1,16 @@
+import java.util.Arrays;
+
 //Riley Trautman
 public class project19 {
-
+	public static void main(String args[]) {
+		String[] ss = {"Bill","Mary","Lee","Agnes","Alfred","Thomas","Alvin","Bernard","Ezra","Herman"};
+		Arrays.sort(ss);
+		for (int x = 0; x < ss.length; x++) {
+			System.out.print(ss[x]);
+			for (int i = 0; i < 10-ss[x].length(); i++) {
+				System.out.print(" ");
+			}
+			System.out.println(ss[ss.length-1-x]);
+		}
+	}
 }
