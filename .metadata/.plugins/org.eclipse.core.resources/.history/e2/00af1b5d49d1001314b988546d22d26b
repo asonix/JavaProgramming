@@ -1,8 +1,0 @@
-//Riley Trautman
-import java.io.*;
-import java.util.*;
-
-public class Lesson18 {
-    public static void main(String args[]) {
-    }
-}

@@ -1,0 +1,15 @@
+//Riley Trautman
+public class Lesson19 {
+
+}
+// 1. BankAccount ba = new BankAccount[300];
+// 1. ba[47] = 92;
+// 1. ba[102] = 1007;
+// 2. if (k[3] == jim[5]) {}
+// 3. if (s[2].equals(s[19])) {}
+// 4. if (cir[2].equals(cirr[10])) {}
+// 5. Months does not have a specified length
+// 6. 20, 17
+// 7. char[26] qbf = d.toCharArray();
+// 8. System.arraycopy(dub,4,rub,3);
+// 9. 
