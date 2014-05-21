@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="957" x="0" y="0">
+<window height="742" maximized="true" width="886" x="0" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="26"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="130" y="28"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="112" y="26"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="70" y="26"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="70" y="26"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="26"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="118" y="28"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="74" y="28"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="74" y="28"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="122" y="28"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="26"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="182" y="28"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -26,10 +26,26 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lesson20.java" partName="Lesson20.java" path="/home/riley/git/JavaProgramming/proj20/src/Lesson20.java" title="Lesson20.java" tooltip="proj20/src/Lesson20.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/proj20/src/Lesson20.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="831" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="project20.java" partName="project20.java" path="/home/riley/git/JavaProgramming/proj20/src/project20.java" title="project20.java" tooltip="proj20/src/project20.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/proj20/src/project20.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DistToLine.java" partName="DistToLine.java" path="/home/riley/git/JavaProgramming/proj20/src/DistToLine.java" title="DistToLine.java" tooltip="proj20/src/DistToLine.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/proj20/src/DistToLine.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="212" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -39,7 +55,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings (6 items)"/>
-<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="501" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="75" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -101,7 +117,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -242,8 +258,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.14221892" ratioLeft="191" ratioRight="1152" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.61732286" ratioLeft="392" ratioRight="243" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.18327606" ratioLeft="160" ratioRight="713" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7701342" ratioLeft="459" ratioRight="137" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -260,7 +276,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="right" ratio="0.84388804" ratioLeft="573" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
@@ -275,7 +291,166 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/proj19/src/Lesson19.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/proj19/src/project19.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/proj19/src/Lesson19.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/proj20/src/Lesson20.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/proj20/src/project20.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/proj20/src/DistToLine.java"/>
+</editors>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="153" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="162" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="171" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="179" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="196" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="205" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="422" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="264" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="Lesson19.java" index="0">
+<position info="not_deleted" x="782" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="369" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="326" y="0"/>
+</item>
+<item historyLabel="project19.java" index="1">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="Lesson19.java" index="2">
+<position info="not_deleted" x="782" y="0"/>
+</item>
+<item historyLabel="Lesson20.java" index="3">
+<position info="not_deleted" x="16" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="36" y="0"/>
+</item>
+<item historyLabel="Lesson20.java" index="3">
+<position info="not_deleted" x="16" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="952" y="0"/>
+</item>
+<item historyLabel="Lesson20.java" index="3">
+<position info="not_deleted" x="42" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="952" y="0"/>
+</item>
+<item historyLabel="Lesson20.java" index="3">
+<position info="not_deleted" x="831" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="952" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="99" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="100" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="16" y="0"/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position info="not_deleted" x="16" y="0"/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position info="not_deleted" x="124" y="0"/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="36" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="782" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="947" y="0"/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="914" y="0"/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="914" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="921" y="0"/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="17" y="0"/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="Lesson20.java" index="3">
+<position info="not_deleted" x="831" y="0"/>
+</item>
+<item historyLabel="project20.java" index="4">
+<position info="not_deleted" x="17" y="0"/>
+</item>
+<item historyLabel="DistToLine.java" index="5">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item active="true" historyLabel="project20.java" index="4">
+<position info="not_deleted" x="17" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -292,14 +467,23 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="project18.java" tooltip="proj18/src/project18.java">
-<persistable path="/proj18/src/project18.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DistToLine.java" tooltip="proj20/src/DistToLine.java">
+<persistable path="/proj20/src/DistToLine.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="project20.java" tooltip="proj20/src/project20.java">
+<persistable path="/proj20/src/project20.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lesson20.java" tooltip="proj20/src/Lesson20.java">
+<persistable path="/proj20/src/Lesson20.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="project19.java" tooltip="proj19/src/project19.java">
 <persistable path="/proj19/src/project19.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lesson19.java" tooltip="proj19/src/Lesson19.java">
 <persistable path="/proj19/src/Lesson19.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="project18.java" tooltip="proj18/src/project18.java">
+<persistable path="/proj18/src/project18.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lesson18.java" tooltip="proj18/src/Lesson18.java">
 <persistable path="/proj18/src/Lesson18.java"/>
@@ -327,15 +511,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Recipe.java" tooltip="proj16/src/Recipe.java">
 <persistable path="/proj16/src/Recipe.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Automobile.java" tooltip="proj16/src/Automobile.java">
-<persistable path="/proj16/src/Automobile.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Project16.java" tooltip="proj16/src/Project16.java">
-<persistable path="/proj16/src/Project16.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lesson16.java" tooltip="proj16/src/Lesson16.java">
-<persistable path="/proj16/src/Lesson16.java"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,30 @@
+//Riley Trautman
+import java.io.*;
+import java.util.*;
+public class project20 {
+	public static void main(String args[]) {
+		System.out.print("Enter the A value for the line: ");
+		Scanner A = new Scanner(System.in);
+		System.out.print("\n");
+		System.out.print("Enter the B value for the line: ");
+		System.out.print("\n");
+		Scanner B = new Scanner(System.in);
+		System.out.print("Enter the C value for the line: ");
+		System.out.print("\n");
+		Scanner C = new Scanner(System.in);
+		System.out.print("Enter the x value for the line: ");
+		System.out.print("\n");
+		Scanner x = new Scanner(System.in);
+		System.out.print("Enter the y value for the line: ");
+		System.out.print("\n");
+		Scanner y = new Scanner(System.in);
+
+		DistToLine.A = A.nextDouble();
+		DistToLine.B = B.nextDouble();
+		DistToLine.C = C.nextDouble();
+		DistToLine.x = x.nextDouble();
+		DistToLine.y = y.nextDouble();
+		
+		System.out.println();
+	}
+}
